@@ -1,0 +1,148 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="00C6EB69-A41D-8544-949F-24C69CBD0021" name="CLIENTE">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-09-20 18:22:36 UTC</createdTime>
+<ownerDesignName>ModeloVicenteCortez3.1</ownerDesignName>
+<engineerTo>
+<item key="813AC30F-5319-8033-8A84-7FD57289FEF3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="run_cliente" id="744995EF-A7E5-E422-C15A-FB734E3B4F64">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-09-20 18:42:50 UTC</createdTime>
+<ownerDesignName>ModeloVicenteCortez3.1</ownerDesignName>
+<engineerTo>
+<item key="813AC30F-5319-8033-8A84-7FD57289FEF3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dv" id="5362C7CF-0B28-900A-DCD6-B63387326EF9">
+<createdBy>benjaminignacio</createdBy>
+<createdTime>2026-10-05 23:56:55 UTC</createdTime>
+<ownerDesignName>ModeloVicenteCortez3.1</ownerDesignName>
+<engineerTo>
+<item key="813AC30F-5319-8033-8A84-7FD57289FEF3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="774C4D2A-8418-78DE-AEE0-DDB8BED1159A">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-09-20 18:44:10 UTC</createdTime>
+<ownerDesignName>ModeloVicenteCortez3.1</ownerDesignName>
+<engineerTo>
+<item key="813AC30F-5319-8033-8A84-7FD57289FEF3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ap_paterno" id="145FA532-626E-2613-49E8-CEABE3D751E4">
+<createdBy>benjaminignacio</createdBy>
+<createdTime>2026-10-05 20:24:15 UTC</createdTime>
+<ownerDesignName>ModeloVicenteCortez3.1</ownerDesignName>
+<engineerTo>
+<item key="813AC30F-5319-8033-8A84-7FD57289FEF3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ap_materno" id="08F1E4AC-F012-1DA2-FB84-4567C121726F">
+<createdBy>benjaminignacio</createdBy>
+<createdTime>2026-10-05 20:24:47 UTC</createdTime>
+<ownerDesignName>ModeloVicenteCortez3.1</ownerDesignName>
+<engineerTo>
+<item key="813AC30F-5319-8033-8A84-7FD57289FEF3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono" id="248383D0-2EB5-5FB7-E979-CA1F0C9641B7">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-09-20 18:44:19 UTC</createdTime>
+<ownerDesignName>ModeloVicenteCortez3.1</ownerDesignName>
+<engineerTo>
+<item key="813AC30F-5319-8033-8A84-7FD57289FEF3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="correo" id="8D610794-4E31-662E-6313-1A577D49BB7B">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-09-20 18:44:30 UTC</createdTime>
+<ownerDesignName>ModeloVicenteCortez3.1</ownerDesignName>
+<engineerTo>
+<item key="813AC30F-5319-8033-8A84-7FD57289FEF3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_nac" id="B845391C-972A-BBBF-8B48-AF460D553D80">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-09-29 22:47:27 UTC</createdTime>
+<ownerDesignName>ModeloVicenteCortez3.1</ownerDesignName>
+<engineerTo>
+<item key="813AC30F-5319-8033-8A84-7FD57289FEF3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="genero" id="E4F2CA4C-DA3E-5C26-1C7C-CCBC9B05FBF2">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-09-29 22:47:41 UTC</createdTime>
+<ownerDesignName>ModeloVicenteCortez3.1</ownerDesignName>
+<engineerTo>
+<item key="813AC30F-5319-8033-8A84-7FD57289FEF3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8A3A1D08-6856-B9AF-7723-32145AB2D175" name="cliente PK">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-09-20 18:43:01 UTC</createdTime>
+<ownerDesignName>ModeloVicenteCortez3.1</ownerDesignName>
+<engineerTo>
+<item key="813AC30F-5319-8033-8A84-7FD57289FEF3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>744995EF-A7E5-E422-C15A-FB734E3B4F64</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

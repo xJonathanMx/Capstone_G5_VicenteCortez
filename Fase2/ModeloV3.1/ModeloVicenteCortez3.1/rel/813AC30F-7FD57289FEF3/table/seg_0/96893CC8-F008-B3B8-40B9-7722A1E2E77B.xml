@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="96893CC8-F008-B3B8-40B9-7722A1E2E77B" name="CANAL_COMUNICACION">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>CBA2AD2B-2EFE-2DED-02A7-F164162C9FC6</generatorID>
+<ownerDesignName>ModeloVicenteCortez3.1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_medio_comunicacion" id="711687FF-B36B-2A6B-0F63-E71B2559CE0D">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>6DC48A64-13FE-FD9B-CBCE-20CC39DB9A11</generatorID>
+<ownerDesignName>ModeloVicenteCortez3.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_medio" id="06A32C3A-8FB4-AA54-C066-6545D2DCF329">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>4A37005F-299B-FC95-FD8B-162B45B2DCBF</generatorID>
+<ownerDesignName>ModeloVicenteCortez3.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8EF181E3-27D6-4174-44C5-394D1A1500A9" name="CANAL_COMUNICACION_PK">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>D5DBDF58-CDB0-3BE9-E50D-A5CB45020FB8</generatorID>
+<ownerDesignName>ModeloVicenteCortez3.1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="711687FF-B36B-2A6B-0F63-E71B2559CE0D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

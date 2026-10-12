@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="755DC50F-9350-4B98-B6B0-DBC5117EA533" name="VALORACION">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>4301CFCF-4F3F-775C-D8F6-80298963B979</generatorID>
+<ownerDesignName>ModeloVicenteCortez3.1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_valoracion" id="A75A7880-53ED-1490-1E49-89211CEB26A8">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>8F5C79DD-53BF-1EF0-EA9B-E1640DF90A0F</generatorID>
+<ownerDesignName>ModeloVicenteCortez3.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_programada" id="6A0BB887-ECEA-57B8-806A-22351094B4CC">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>9D7E2B1E-479C-5011-7FC5-0CB35BF03BEB</generatorID>
+<ownerDesignName>ModeloVicenteCortez3.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado_recibida" id="70FE64FD-C54B-3B71-804E-10D383E0F624">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>771A0F59-6B34-BC2E-74AC-17C6FD4F1E64</generatorID>
+<ownerDesignName>ModeloVicenteCortez3.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="respuesta" id="D2715E76-D462-2CF6-2D80-AB670D777297">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>AB2A8E0A-A600-CF52-B856-F3075ECF2573</generatorID>
+<ownerDesignName>ModeloVicenteCortez3.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FICHA_ATENCION_id_ficha" id="B44469C1-3F19-C3D7-073E-6DD3C034F22E">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>674354AA-37C4-B6AF-45CF-368B6F5E3628</generatorID>
+<ownerDesignName>ModeloVicenteCortez3.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E5EF0105-1538-7B98-3431-3E51A6DCF458" referredColumn="C64A66EC-B417-852B-7BC0-BD2B0BEF48E0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E5A29924-2FD3-A338-A7DF-9AABFADA4847" name="VALORACION_PK">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>AD9240CB-733D-8713-1B02-F06DBA5938D7</generatorID>
+<ownerDesignName>ModeloVicenteCortez3.1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A75A7880-53ED-1490-1E49-89211CEB26A8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0310FC08-BA48-BDE7-D010-7464426ACFAD" name="VALORACION_FICHA_ATENCION_FK">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>F7EFC04C-9A16-46D3-5F5C-772D3B931FB6</generatorID>
+<ownerDesignName>ModeloVicenteCortez3.1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B44469C1-3F19-C3D7-073E-6DD3C034F22E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F428751F-D71F-A96E-E86F-8DCC688FDF17" name="HISTORICO_ESTADO_SERVICIO">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>00EE9AC5-078D-A802-2B92-4C531509B221</generatorID>
+<ownerDesignName>ModeloVicenteCortez3.1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_cambio_estado" id="A8B1EFF1-A012-523D-8C67-925CA14DFA3D">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>50D4E2D2-CEF5-CA55-D884-55309F832554</generatorID>
+<ownerDesignName>ModeloVicenteCortez3.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_cambio" id="DC27B1E0-0039-B2B3-5F25-818A89B13A51">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>E016B39B-41BF-2700-E454-63BFA67A7E59</generatorID>
+<ownerDesignName>ModeloVicenteCortez3.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SERVICIO_id_servicio" id="3A3CDD67-7514-0892-5936-5E0394065C9A">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>CAC66419-8DCD-0CE6-B977-A1ADE1F2D29B</generatorID>
+<ownerDesignName>ModeloVicenteCortez3.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2DE4A864-F14C-592C-CFF4-BCA916B8717E" referredColumn="50CF2265-4FFB-02E8-016C-7880F15FC0E2"/>
+</associations>
+</Column>
+<Column name="SERVICIO_TIPO_SERVICIO_id_tipo_servicio" id="463C7F4C-7CBA-18A8-FD96-E568D29D9CB2">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>64380D22-9C54-BEB0-89C1-6274DA2B6E35</generatorID>
+<ownerDesignName>ModeloVicenteCortez3.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2DE4A864-F14C-592C-CFF4-BCA916B8717E" referredColumn="70DDED8B-9534-CC53-1A73-0140A8AABCF5"/>
+</associations>
+</Column>
+<Column name="TIPO_ESTADO_id_tipo_estado" id="754975EA-8719-5FCE-EA71-C713E0A06CC6">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>F0852378-1377-930B-D6E6-6CB4733B0076</generatorID>
+<ownerDesignName>ModeloVicenteCortez3.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E9FF6B51-55D5-E482-0EE5-F42A8EAEF6B6" referredColumn="C0A3BC17-6D84-A2E5-C106-3CD2EC1CD8D0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F9A289E1-BF55-4F6E-1C88-C3F9801DA3AC" name="HISTORICO_ESTADO_SERVICIO_PK">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>6B58C2F8-9141-1E64-931E-3317F87071DF</generatorID>
+<ownerDesignName>ModeloVicenteCortez3.1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3A3CDD67-7514-0892-5936-5E0394065C9A"/>
+<colUsage columnID="463C7F4C-7CBA-18A8-FD96-E568D29D9CB2"/>
+<colUsage columnID="754975EA-8719-5FCE-EA71-C713E0A06CC6"/>
+<colUsage columnID="A8B1EFF1-A012-523D-8C67-925CA14DFA3D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4084ADF7-E6B6-C289-497C-5F02479B2510" name="HISTORICO_ESTADO_SERVICIO_SERVICIO_FK">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>F3C986F7-CE29-0295-3360-3C497B26C984</generatorID>
+<ownerDesignName>ModeloVicenteCortez3.1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3A3CDD67-7514-0892-5936-5E0394065C9A"/>
+<colUsage columnID="463C7F4C-7CBA-18A8-FD96-E568D29D9CB2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="54833F55-C86A-6601-3E48-CE72E43039AD" name="HISTORICO_ESTADO_SERVICIO_TIPO_ESTADO_FK">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>D3D1F5D3-46AF-4288-B6B4-1D44A4F52F9D</generatorID>
+<ownerDesignName>ModeloVicenteCortez3.1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="754975EA-8719-5FCE-EA71-C713E0A06CC6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

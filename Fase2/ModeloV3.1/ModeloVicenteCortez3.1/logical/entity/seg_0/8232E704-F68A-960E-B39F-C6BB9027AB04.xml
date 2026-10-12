@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8232E704-F68A-960E-B39F-C6BB9027AB04" name="COMISION">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-10 02:24:32 UTC</createdTime>
+<ownerDesignName>ModeloVicenteCortez3.1</ownerDesignName>
+<engineerTo>
+<item key="813AC30F-5319-8033-8A84-7FD57289FEF3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_comision" id="BF133212-4BEE-24C2-4560-BB0275EC1FAA">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-10 02:24:38 UTC</createdTime>
+<ownerDesignName>ModeloVicenteCortez3.1</ownerDesignName>
+<engineerTo>
+<item key="813AC30F-5319-8033-8A84-7FD57289FEF3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_tipo_servicio" id="61B5026C-8B9A-0A06-CADA-011EAFB88698">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-10 02:24:54 UTC</createdTime>
+<generatorID>A9DA8730-3480-932E-D133-AA9474980A10</generatorID>
+<ownerDesignName>ModeloVicenteCortez3.1</ownerDesignName>
+<engineerTo>
+<item key="813AC30F-5319-8033-8A84-7FD57289FEF3" value="true"/>
+</engineerTo>
+<referedAttribute>483485A0-B371-5CD3-15AB-51111A33DA86</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_contrato" id="C15AA5D4-3AFB-DBBC-2BBB-D00540DDF01A">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-10 03:39:24 UTC</createdTime>
+<generatorID>61516C4D-9526-51B7-5E19-78606E23F288</generatorID>
+<ownerDesignName>ModeloVicenteCortez3.1</ownerDesignName>
+<engineerTo>
+<item key="813AC30F-5319-8033-8A84-7FD57289FEF3" value="true"/>
+</engineerTo>
+<referedAttribute>CFCA8752-BD33-353D-C4B9-7017173A1A3B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A1A6A37B-66AC-173D-0857-E89BFA39ED8C" name="COMISION PK">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-10 02:24:47 UTC</createdTime>
+<ownerDesignName>ModeloVicenteCortez3.1</ownerDesignName>
+<engineerTo>
+<item key="813AC30F-5319-8033-8A84-7FD57289FEF3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BF133212-4BEE-24C2-4560-BB0275EC1FAA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

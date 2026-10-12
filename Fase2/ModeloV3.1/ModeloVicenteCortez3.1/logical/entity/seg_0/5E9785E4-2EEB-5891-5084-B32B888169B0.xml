@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5E9785E4-2EEB-5891-5084-B32B888169B0" name="HISTORICO_ESTADO_USUARIO">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-10 03:20:16 UTC</createdTime>
+<ownerDesignName>ModeloVicenteCortez3.1</ownerDesignName>
+<engineerTo>
+<item key="813AC30F-5319-8033-8A84-7FD57289FEF3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_historico_est_u" id="69289262-0F48-43DF-F58F-E5FA5CC9C565">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-10 03:23:06 UTC</createdTime>
+<ownerDesignName>ModeloVicenteCortez3.1</ownerDesignName>
+<engineerTo>
+<item key="813AC30F-5319-8033-8A84-7FD57289FEF3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="motivo" id="FD588326-4A3D-D5FF-9A52-EFFF9EF35AD3">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-10 03:26:58 UTC</createdTime>
+<ownerDesignName>ModeloVicenteCortez3.1</ownerDesignName>
+<engineerTo>
+<item key="813AC30F-5319-8033-8A84-7FD57289FEF3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="run_usuario" id="A6AC8D85-11BE-1694-7872-11AF69FF4211">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-10 03:28:26 UTC</createdTime>
+<generatorID>ED4614E3-9302-8F36-F718-A98F4EBA5092</generatorID>
+<ownerDesignName>ModeloVicenteCortez3.1</ownerDesignName>
+<engineerTo>
+<item key="813AC30F-5319-8033-8A84-7FD57289FEF3" value="true"/>
+</engineerTo>
+<referedAttribute>FC76599E-96A1-D3EA-A7AC-ACFB1A1405EB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_tipo_estado" id="5C6016BD-90D8-A79B-3296-0FBF57984D58">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-10 03:40:16 UTC</createdTime>
+<generatorID>B58AD983-C6A7-1246-6FCF-015F94B61737</generatorID>
+<ownerDesignName>ModeloVicenteCortez3.1</ownerDesignName>
+<engineerTo>
+<item key="813AC30F-5319-8033-8A84-7FD57289FEF3" value="true"/>
+</engineerTo>
+<referedAttribute>1A53C1F9-AD00-94F8-470D-A5F3BF69FF04</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_cambio" id="9EC8040D-77F0-751D-CE38-0F8B0AF7559F">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 21:09:39 UTC</createdTime>
+<ownerDesignName>ModeloVicenteCortez3.1</ownerDesignName>
+<engineerTo>
+<item key="813AC30F-5319-8033-8A84-7FD57289FEF3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2D193641-CB6D-A2CA-1D12-6FD35809EEEC" name="HISTORICO_ESTADO_USUARIO PK">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-10 03:23:58 UTC</createdTime>
+<ownerDesignName>ModeloVicenteCortez3.1</ownerDesignName>
+<engineerTo>
+<item key="813AC30F-5319-8033-8A84-7FD57289FEF3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>69289262-0F48-43DF-F58F-E5FA5CC9C565</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

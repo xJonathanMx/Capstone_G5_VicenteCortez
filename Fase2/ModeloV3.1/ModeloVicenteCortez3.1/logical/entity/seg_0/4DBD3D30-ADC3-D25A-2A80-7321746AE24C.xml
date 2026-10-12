@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4DBD3D30-ADC3-D25A-2A80-7321746AE24C" name="HISTORICO_PRECIO_SERVICIO">
+<createdBy>benjaminignacio</createdBy>
+<createdTime>2026-10-05 20:26:00 UTC</createdTime>
+<ownerDesignName>ModeloVicenteCortez3.1</ownerDesignName>
+<engineerTo>
+<item key="813AC30F-5319-8033-8A84-7FD57289FEF3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_precio_historico" id="7CF44275-7411-B418-AE8C-C06BFF939C98">
+<createdBy>benjaminignacio</createdBy>
+<createdTime>2026-10-05 20:41:30 UTC</createdTime>
+<ownerDesignName>ModeloVicenteCortez3.1</ownerDesignName>
+<engineerTo>
+<item key="813AC30F-5319-8033-8A84-7FD57289FEF3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="precio_anterior" id="CDA291A4-C6BF-AE0E-4C26-0AC02D36723C">
+<createdBy>benjaminignacio</createdBy>
+<createdTime>2026-10-05 20:41:46 UTC</createdTime>
+<ownerDesignName>ModeloVicenteCortez3.1</ownerDesignName>
+<engineerTo>
+<item key="813AC30F-5319-8033-8A84-7FD57289FEF3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_cambio" id="FEEF69F0-866C-3EA5-EA54-C040FE4F8D03">
+<createdBy>benjaminignacio</createdBy>
+<createdTime>2026-10-05 20:43:41 UTC</createdTime>
+<ownerDesignName>ModeloVicenteCortez3.1</ownerDesignName>
+<engineerTo>
+<item key="813AC30F-5319-8033-8A84-7FD57289FEF3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_servicio" id="296E84C4-4DBC-EE69-DEE9-E50D78717B50">
+<createdBy>benjaminignacio</createdBy>
+<createdTime>2026-10-05 20:58:45 UTC</createdTime>
+<generatorID>D5DA0A98-DA16-D45F-FB6C-DA17AE37F853</generatorID>
+<ownerDesignName>ModeloVicenteCortez3.1</ownerDesignName>
+<engineerTo>
+<item key="813AC30F-5319-8033-8A84-7FD57289FEF3" value="true"/>
+</engineerTo>
+<referedAttribute>1422CA0E-BDCB-DA55-C3A3-581E8BAF8EDB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_tipo_servicio" id="D1DBABD9-25A2-765D-5952-82ADF6489584">
+<createdBy>benjaminignacio</createdBy>
+<createdTime>2026-10-06 00:45:10 UTC</createdTime>
+<generatorID>D5DA0A98-DA16-D45F-FB6C-DA17AE37F853</generatorID>
+<ownerDesignName>ModeloVicenteCortez3.1</ownerDesignName>
+<engineerTo>
+<item key="813AC30F-5319-8033-8A84-7FD57289FEF3" value="true"/>
+</engineerTo>
+<referedAttribute>DE69F371-7CFF-82EE-191F-C2C2668CCD86</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2F6FD743-A135-56E5-009F-8B0552CB0712" name="HISTORICO_PRECIO PK">
+<createdBy>benjaminignacio</createdBy>
+<createdTime>2026-10-05 20:41:40 UTC</createdTime>
+<ownerDesignName>ModeloVicenteCortez3.1</ownerDesignName>
+<engineerTo>
+<item key="813AC30F-5319-8033-8A84-7FD57289FEF3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7CF44275-7411-B418-AE8C-C06BFF939C98</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

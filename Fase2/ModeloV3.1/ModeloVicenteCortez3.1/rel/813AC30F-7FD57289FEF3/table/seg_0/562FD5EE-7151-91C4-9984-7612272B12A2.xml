@@ -1,0 +1,168 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="562FD5EE-7151-91C4-9984-7612272B12A2" name="USO_PROMOCION">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>071452D9-B0ED-EB42-97C8-BADE0F894BB2</generatorID>
+<ownerDesignName>ModeloVicenteCortez3.1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_uso_promocion" id="4F4BE577-1431-C48B-3904-C900BA364B2B">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>37AF40B1-889F-0FAD-277E-AEDA946D07C9</generatorID>
+<ownerDesignName>ModeloVicenteCortez3.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_uso" id="B2F4C972-0415-8F5E-9FE2-FAAC695EDBB7">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>578674B6-32E6-9436-7216-2AAD21DE2264</generatorID>
+<ownerDesignName>ModeloVicenteCortez3.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DETALLE_ATENCION_SERVICIO_id_servicio" id="26E3D897-08B9-A118-4434-FED613B2831D">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>D22FB912-4BD3-D194-621B-9E36DB134908</generatorID>
+<ownerDesignName>ModeloVicenteCortez3.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E0B81498-85FB-3883-7AA3-ABF9F755A915" referredColumn="BDD268F4-A54B-EE73-D3A1-2AB71184CEF6"/>
+</associations>
+</Column>
+<Column name="DETALLE_ATENCION_SERVICIO_id_tipo_servicio" id="3CD617B5-D2A2-3CC0-627E-73E87E095E13">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>FCB642D8-549E-D562-1F53-49E4EE6C4E8B</generatorID>
+<ownerDesignName>ModeloVicenteCortez3.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E0B81498-85FB-3883-7AA3-ABF9F755A915" referredColumn="B2E104BE-794D-4DF3-91BB-AD1C65959D4D"/>
+</associations>
+</Column>
+<Column name="DETALLE_ATENCION_SERVICIO_id_ficha" id="C8796252-1D55-FA6C-45A5-110CEE6826F0">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>2E8E4A57-2B2B-D099-8A94-2E45B1057DC6</generatorID>
+<ownerDesignName>ModeloVicenteCortez3.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E0B81498-85FB-3883-7AA3-ABF9F755A915" referredColumn="C0919B51-61A3-8143-A6D6-020907D88AB1"/>
+</associations>
+</Column>
+<Column name="DETALLE_ATENCION_SERVICIO_id_detalle_aten_s" id="FD3E4D34-0F34-6855-61C0-C9C18AE136D5">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>57547B85-1C19-52A7-846F-405CF4C58A35</generatorID>
+<ownerDesignName>ModeloVicenteCortez3.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E0B81498-85FB-3883-7AA3-ABF9F755A915" referredColumn="73A64D98-A3EA-10D7-E19A-34A70EA0D7BC"/>
+</associations>
+</Column>
+<Column name="CLIENTE_PROMOCION_id_cliente_promocion" id="D4D1127E-8A53-2FE1-0F52-0247E9246FB5">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>22915693-523F-B11C-4B5F-02AE63339B2E</generatorID>
+<ownerDesignName>ModeloVicenteCortez3.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9A2698BC-F809-1676-1251-26F7BAE1F11C" referredColumn="9E15BAAC-6F9F-4BA8-6EFA-C2553901970D"/>
+</associations>
+</Column>
+<Column name="cantidad_usada" id="31943095-D7BA-BAC8-5322-DBBE38D18348">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>000F1B36-ECB5-11DD-E94F-46E160D6F6E7</generatorID>
+<ownerDesignName>ModeloVicenteCortez3.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BDBDA35F-569D-2181-7D9F-7D68538A2018" name="USO_PROMOCION_PK">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>05759CB4-0210-72F5-6135-E9A3C6E48385</generatorID>
+<ownerDesignName>ModeloVicenteCortez3.1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C8796252-1D55-FA6C-45A5-110CEE6826F0"/>
+<colUsage columnID="26E3D897-08B9-A118-4434-FED613B2831D"/>
+<colUsage columnID="4F4BE577-1431-C48B-3904-C900BA364B2B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0EB900F4-3D2A-FB0E-0543-C9ADF70DB49E" name="USO_PROMOCION_DETALLE_ATENCION_SERVICIO_FK">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>BAC213DD-D042-DFE2-B025-88FB5B79A66D</generatorID>
+<ownerDesignName>ModeloVicenteCortez3.1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="26E3D897-08B9-A118-4434-FED613B2831D"/>
+<colUsage columnID="3CD617B5-D2A2-3CC0-627E-73E87E095E13"/>
+<colUsage columnID="C8796252-1D55-FA6C-45A5-110CEE6826F0"/>
+<colUsage columnID="FD3E4D34-0F34-6855-61C0-C9C18AE136D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FF9E02C4-7434-B035-9E2E-7DE98B35932A" name="USO_PROMOCION_CLIENTE_PROMOCION_FK">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>307189D2-D42E-CFD3-1A76-BE1E34734023</generatorID>
+<ownerDesignName>ModeloVicenteCortez3.1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D4D1127E-8A53-2FE1-0F52-0247E9246FB5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
