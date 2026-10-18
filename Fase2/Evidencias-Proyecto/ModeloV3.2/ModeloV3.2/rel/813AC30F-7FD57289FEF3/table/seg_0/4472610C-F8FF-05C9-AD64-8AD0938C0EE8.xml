@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4472610C-F8FF-05C9-AD64-8AD0938C0EE8" name="SERVICIO_ESPECIALIDAD">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<comment><![CDATA[COMO UNA ESPECIALIDAD ABARCA MULTIPLES SERVICIOS Y UN SERVICIO COMPLEJO PODRIA REQUERI MAS DE UNA ESPECIALIDAD, LA REALCION ES DE MUCHOS A MUCHOS]]></comment>
+<generatorID>F5AB2670-944A-4327-FF0F-C5DFE5F038A4</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SERVICIO_id_servicio" id="E6115C97-1CA7-CCC6-CF75-EBDB29632AAF">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>762CAD18-2934-5092-5999-E37E0541A387</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6827ED45-4E01-DCB6-80A6-10F69228068C" referredColumn="50CF2265-4FFB-02E8-016C-7880F15FC0E2"/>
+</associations>
+</Column>
+<Column name="SERVICIO_TIPO_SERVICIO_id_tipo_servicio" id="015771A0-8699-13B6-6CCE-E3EBF909D634">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>8186EC85-1AC3-23D0-3611-44F2F40AD9F1</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6827ED45-4E01-DCB6-80A6-10F69228068C" referredColumn="70DDED8B-9534-CC53-1A73-0140A8AABCF5"/>
+</associations>
+</Column>
+<Column name="ESPECIALIDAD_id_especialidad" id="E63F36AF-5414-3A85-84AC-5AA4E51D71C5">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>6A2CC20F-7B0E-7878-C85F-765FD2B5A736</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6080F695-6C8A-6A71-54AB-BAB9186C24B3" referredColumn="FFA84F4D-3F1F-F781-39B1-374A7B370E0B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="370CDE0F-FC34-0EEC-762C-7107D5407B2D" name="SERVICIO_ESPECIALIDAD_SERVICIO_FK">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>BF7303D6-E0BB-0C7F-D740-E6474FF41698</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E6115C97-1CA7-CCC6-CF75-EBDB29632AAF"/>
+<colUsage columnID="015771A0-8699-13B6-6CCE-E3EBF909D634"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7D9013C1-DFDB-10E3-6D42-1F13625BDF21" name="SERVICIO_ESPECIALIDAD_ESPECIALIDAD_FK">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>19D0C435-293C-5CE7-3D24-8E8ECD8E10A5</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E63F36AF-5414-3A85-84AC-5AA4E51D71C5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FF30C43A-A718-4D77-8E89-BC06E4EC81B6" name="COMISION">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>8232E704-F68A-960E-B39F-C6BB9027AB04</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_comision" id="76A682A7-DB49-0B9F-9CEE-C9C32D18E791">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>BF133212-4BEE-24C2-4560-BB0275EC1FAA</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_SERVICIO_id_tipo_servicio" id="93B57814-BB14-35FA-A91B-8007A02C2AA9">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>61B5026C-8B9A-0A06-CADA-011EAFB88698</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="268ACFA6-B4F6-F90F-C9CB-FC72931E8BBA" referredColumn="F619E5CF-5BBA-9F15-6E68-5C1ED4D03ECE"/>
+</associations>
+</Column>
+<Column name="TIPO_CONTRATO_id_contrato" id="66416710-4A1F-3BF1-BAB0-09A7BE0F99B7">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>C15AA5D4-3AFB-DBBC-2BBB-D00540DDF01A</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B39CFF61-DD26-4003-1D53-1FC1CC0AC5CA" referredColumn="D4F495D2-93DC-DDBB-F6A2-B4DD7B6E3E65"/>
+</associations>
+</Column>
+<Column name="porcentaje" id="8AC6B3EF-382F-F853-DDDC-32825243D3AB">
+<createdBy>benjaminignacio</createdBy>
+<createdTime>2026-10-18 03:36:13 UTC</createdTime>
+<generatorID>B8300314-4C4F-BC3B-CC70-9537E105937F</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="78F69AD5-8ED0-E122-0A42-F61DAB1F1245" name="COMISION_PK">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>A1A6A37B-66AC-173D-0857-E89BFA39ED8C</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="76A682A7-DB49-0B9F-9CEE-C9C32D18E791"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F6932DA0-DD31-C28F-64B8-A550CD88526D" name="COMISION_TIPO_SERVICIO_FK">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>A9DA8730-3480-932E-D133-AA9474980A10</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="93B57814-BB14-35FA-A91B-8007A02C2AA9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="20CB7A5A-3CF1-6E4A-6154-29F23E20680C" name="COMISION_TIPO_CONTRATO_FK">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>61516C4D-9526-51B7-5E19-78606E23F288</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="66416710-4A1F-3BF1-BAB0-09A7BE0F99B7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

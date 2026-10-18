@@ -1,0 +1,224 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="51AF89DE-969E-9831-1C6C-70E5649C7744" name="DETALLE_ATENCION_SERVICIO">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>4069DA42-68D0-FDC2-18A0-08980E6BBCCB</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_detalle_aten_s" id="73A64D98-A3EA-10D7-E19A-34A70EA0D7BC">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>B5CA5EF2-760F-5553-35E4-B08869249E8D</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FICHA_ATENCION_id_ficha" id="C0919B51-61A3-8143-A6D6-020907D88AB1">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>3F70B6CC-B817-ED83-3F54-636A836BB97F</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7EC6556A-5178-4AF8-AF26-A37ED1E81224" referredColumn="C64A66EC-B417-852B-7BC0-BD2B0BEF48E0"/>
+</associations>
+</Column>
+<Column name="SERVICIO_id_servicio" id="BDD268F4-A54B-EE73-D3A1-2AB71184CEF6">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>D9014C41-6200-6AA7-F487-76B62409EB49</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="27E57E02-B840-EC7B-B55E-5C4CD9645488" referredColumn="50CF2265-4FFB-02E8-016C-7880F15FC0E2"/>
+</associations>
+</Column>
+<Column name="porc_comision_guardado" id="45D6A6E9-C9C8-4EB0-8D96-BE03A1AB5600">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>B202665B-D603-CA3A-DC6D-65C023D19A5C</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USUARIO_run_usuario" id="01453F62-0A53-5C3D-181B-9E028BE13659">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>CFC4B824-141F-B1A3-A42F-0C04EF818CBF</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="894D07A1-04A7-3BAB-BA60-56E55507B1B4" referredColumn="75F928FD-AFF2-DA58-117B-CACCC3C702E3"/>
+</associations>
+</Column>
+<Column name="hora_inicio_servicio" id="E28ED194-0BE5-C690-BEA6-E9AA266816D5">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>C523FFA3-4E2C-F309-F672-995661C812E5</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hora_termino_servicio" id="43BB0405-D83F-85A7-2F91-23922D1D37B6">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>F093A640-B0B8-75EC-B5F6-20E564F1B2F1</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SERVICIO_TIPO_SERVICIO_id_tipo_servicio" id="B2E104BE-794D-4DF3-91BB-AD1C65959D4D">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>3B172F63-702B-DCEF-1B70-2BB22A379BD8</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="27E57E02-B840-EC7B-B55E-5C4CD9645488" referredColumn="70DDED8B-9534-CC53-1A73-0140A8AABCF5"/>
+</associations>
+</Column>
+<Column name="precio_cobrado" id="6B472277-1F4E-329E-64F6-18C401F96F03">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>47CE355C-ADF5-C496-3CA0-6741505564B1</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USUARIO_SERVICIO_USUARIO_SERVICIO_ID" id="9C171BBE-FD1A-94F2-18B9-0EA4AB5975E1">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E71B452D-F5CD-D55B-03CB-7CABE156A062" referredColumn="03815C0F-F1B7-998A-AE7A-411AAEBCC841"/>
+</associations>
+</Column>
+<Column name="estado_atencion" id="A0AD91BD-079C-DBED-1F55-1957D3086945">
+<createdBy>benjaminignacio</createdBy>
+<createdTime>2026-10-18 03:36:13 UTC</createdTime>
+<generatorID>5CD20569-BAD1-87B1-1E10-0394E263F14B</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E8174F4A-B753-079D-DCB8-5A1E091BECCC" name="DETALLE_ATENCION_SERVICIO_PK">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>FE9876BA-9881-87DB-6FC3-7783DA60B579</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BDD268F4-A54B-EE73-D3A1-2AB71184CEF6"/>
+<colUsage columnID="B2E104BE-794D-4DF3-91BB-AD1C65959D4D"/>
+<colUsage columnID="C0919B51-61A3-8143-A6D6-020907D88AB1"/>
+<colUsage columnID="73A64D98-A3EA-10D7-E19A-34A70EA0D7BC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FA49692B-A8DB-D6A0-0B97-52D1573E38A5" name="DETALLE_ATENCION_SERVICIO_USUARIO_FK">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>C56179BE-CDD0-7D20-6B9A-55A8DB289E7C</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="01453F62-0A53-5C3D-181B-9E028BE13659"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="31991902-425E-85B0-D2C5-4DF82B54ED71" name="DETALLE_ATENCION_SERVICIO_FICHA_ATENCION_FK">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>A30E8C16-F1BE-30DD-751B-964BA4F4DE41</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C0919B51-61A3-8143-A6D6-020907D88AB1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="679A4EBD-3470-C699-9C3C-B7522A7B1F89" name="DETALLE_ATENCION_SERVICIO_USUARIO_SERVICIO_FK">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>16EAF085-2A23-BD56-C7FA-E16C9B63162B</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9C171BBE-FD1A-94F2-18B9-0EA4AB5975E1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D0C41ED6-8FC8-A9F8-1FF3-2853C88D0384" name="DETALLE_ATENCION_SERVICIO_SERVICIO_FK">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>81B643E2-13BE-409E-EF58-048C310A1549</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BDD268F4-A54B-EE73-D3A1-2AB71184CEF6"/>
+<colUsage columnID="B2E104BE-794D-4DF3-91BB-AD1C65959D4D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

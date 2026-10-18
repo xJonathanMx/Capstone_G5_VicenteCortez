@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="00EE9AC5-078D-A802-2B92-4C531509B221" name="HISTORICO_ESTADO_SERVICIO">
+<createdBy>benjaminignacio</createdBy>
+<createdTime>2026-10-05 23:14:18 UTC</createdTime>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<engineerTo>
+<item key="813AC30F-5319-8033-8A84-7FD57289FEF3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_cambio_estado" id="50D4E2D2-CEF5-CA55-D884-55309F832554">
+<createdBy>benjaminignacio</createdBy>
+<createdTime>2026-10-05 23:14:37 UTC</createdTime>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<engineerTo>
+<item key="813AC30F-5319-8033-8A84-7FD57289FEF3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_cambio" id="E016B39B-41BF-2700-E454-63BFA67A7E59">
+<createdBy>benjaminignacio</createdBy>
+<createdTime>2026-10-05 23:15:07 UTC</createdTime>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<engineerTo>
+<item key="813AC30F-5319-8033-8A84-7FD57289FEF3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_servicio" id="CAC66419-8DCD-0CE6-B977-A1ADE1F2D29B">
+<createdBy>benjaminignacio</createdBy>
+<createdTime>2026-10-05 23:15:54 UTC</createdTime>
+<generatorID>F3C986F7-CE29-0295-3360-3C497B26C984</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<engineerTo>
+<item key="813AC30F-5319-8033-8A84-7FD57289FEF3" value="true"/>
+</engineerTo>
+<referedAttribute>1422CA0E-BDCB-DA55-C3A3-581E8BAF8EDB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_tipo_servicio" id="64380D22-9C54-BEB0-89C1-6274DA2B6E35">
+<createdBy>benjaminignacio</createdBy>
+<createdTime>2026-10-06 00:45:10 UTC</createdTime>
+<generatorID>F3C986F7-CE29-0295-3360-3C497B26C984</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<engineerTo>
+<item key="813AC30F-5319-8033-8A84-7FD57289FEF3" value="true"/>
+</engineerTo>
+<referedAttribute>DE69F371-7CFF-82EE-191F-C2C2668CCD86</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_tipo_estado" id="F0852378-1377-930B-D6E6-6CB4733B0076">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-10 03:40:16 UTC</createdTime>
+<generatorID>D3D1F5D3-46AF-4288-B6B4-1D44A4F52F9D</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<engineerTo>
+<item key="813AC30F-5319-8033-8A84-7FD57289FEF3" value="true"/>
+</engineerTo>
+<referedAttribute>1A53C1F9-AD00-94F8-470D-A5F3BF69FF04</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6B58C2F8-9141-1E64-931E-3317F87071DF" name="HISTORICO_ESTADO_SERVICIO PK">
+<createdBy>benjaminignacio</createdBy>
+<createdTime>2026-10-05 23:14:52 UTC</createdTime>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="813AC30F-5319-8033-8A84-7FD57289FEF3" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CAC66419-8DCD-0CE6-B977-A1ADE1F2D29B</attributeRef>
+<attributeRef>64380D22-9C54-BEB0-89C1-6274DA2B6E35</attributeRef>
+<attributeRef>F0852378-1377-930B-D6E6-6CB4733B0076</attributeRef>
+<attributeRef>50D4E2D2-CEF5-CA55-D884-55309F832554</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

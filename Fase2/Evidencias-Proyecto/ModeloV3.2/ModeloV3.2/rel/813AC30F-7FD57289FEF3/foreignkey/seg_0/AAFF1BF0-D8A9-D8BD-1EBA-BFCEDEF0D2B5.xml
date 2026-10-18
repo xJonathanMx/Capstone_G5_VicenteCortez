@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AAFF1BF0-D8A9-D8BD-1EBA-BFCEDEF0D2B5" containerWithKeyObject="C19F713C-0DCE-07BD-F8FE-3354804DED3F" localFKIndex="0D461A76-A6E2-9ED8-7E1B-A54CDEE7D4EA" name="HISTORIAL_ESTADO_FICHA_FICHA_ATENCION_FK">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>F4EA11F0-1AE5-C757-2C7B-143D4E21F45E</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<referredTableLongName>FICHA_ATENCION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F5B27D0D-E2BB-AA9D-E7CB-B09CD741EEB7</referredTableID>
+<keyObject>10D92308-3AC9-5579-4B93-15C97763DACD</keyObject>
+<referredKeyID>10D92308-3AC9-5579-4B93-15C97763DACD</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_ficha</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

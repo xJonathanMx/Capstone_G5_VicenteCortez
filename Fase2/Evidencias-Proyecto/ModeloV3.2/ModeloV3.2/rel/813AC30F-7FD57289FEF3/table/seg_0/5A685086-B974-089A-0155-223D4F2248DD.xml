@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5A685086-B974-089A-0155-223D4F2248DD" name="PROMOCION_SERVICIO">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>CBEF6ACF-DF5E-6D41-1A03-63517398599B</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cantidad_total" id="5E9B761B-CBB6-A60B-80FD-6EE4C2BC8FD2">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>7EC8470A-0A00-6A3A-D4D6-B4A8294C9847</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SERVICIO_id_servicio" id="3BBD3186-3271-D2DC-D4E6-87763D2D7BE7">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>060D9CF5-730F-4CF1-3441-2C05479F01D2</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C118417A-7032-4255-321D-B205833A2F6B" referredColumn="50CF2265-4FFB-02E8-016C-7880F15FC0E2"/>
+</associations>
+</Column>
+<Column name="SERVICIO_TIPO_SERVICIO_id_tipo_servicio" id="20D05C72-0D48-D6ED-D162-C8BDAA5EEC87">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>D1B6CB9C-45B1-2F21-0022-C54D7067F732</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C118417A-7032-4255-321D-B205833A2F6B" referredColumn="70DDED8B-9534-CC53-1A73-0140A8AABCF5"/>
+</associations>
+</Column>
+<Column name="PROMOCION_id_promocion" id="BDDD57A1-139F-2161-9ADE-A11FB47039F9">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>B2B28C57-87E4-9119-D672-088E1079B89F</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E505EFC7-1A93-817B-7A38-53C12AE3F861" referredColumn="2A8EE3A1-7528-474B-C2DA-F5C170844EDA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9ACB4836-040E-9EAB-02F9-B20DE60A741E" name="PROMOCION_SERVICIO_PK">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>F5F2B4E6-26BE-902F-6819-9CD12C034799</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3BBD3186-3271-D2DC-D4E6-87763D2D7BE7"/>
+<colUsage columnID="20D05C72-0D48-D6ED-D162-C8BDAA5EEC87"/>
+<colUsage columnID="BDDD57A1-139F-2161-9ADE-A11FB47039F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ACCB4924-4F74-186D-FCAE-C68EB43A773D" name="PROMOCION_SERVICIO_PROMOCION_FK">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>05369553-86FC-8AE8-9986-E337CCF5126C</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BDDD57A1-139F-2161-9ADE-A11FB47039F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7882754D-AAC4-A009-60BE-2FF161EAFD86" name="PROMOCION_SERVICIO_SERVICIO_FK">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>9F1A9D58-967F-BB2F-1D41-AE901B84EFCF</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3BBD3186-3271-D2DC-D4E6-87763D2D7BE7"/>
+<colUsage columnID="20D05C72-0D48-D6ED-D162-C8BDAA5EEC87"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

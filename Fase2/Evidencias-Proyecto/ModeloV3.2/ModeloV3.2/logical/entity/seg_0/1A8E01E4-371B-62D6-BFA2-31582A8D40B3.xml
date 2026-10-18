@@ -1,0 +1,154 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1A8E01E4-371B-62D6-BFA2-31582A8D40B3" name="GIFTCARD">
+<createdBy>benjaminignacio</createdBy>
+<createdTime>2026-10-05 21:19:21 UTC</createdTime>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<engineerTo>
+<item key="813AC30F-5319-8033-8A84-7FD57289FEF3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_giftcard" id="E7F22973-D4EA-ABB0-A53E-3B54091948B8">
+<createdBy>benjaminignacio</createdBy>
+<createdTime>2026-10-05 21:39:46 UTC</createdTime>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<engineerTo>
+<item key="813AC30F-5319-8033-8A84-7FD57289FEF3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo" id="52B87733-9B64-A896-AC52-982CA9390633">
+<createdBy>benjaminignacio</createdBy>
+<createdTime>2026-10-05 21:39:54 UTC</createdTime>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<engineerTo>
+<item key="813AC30F-5319-8033-8A84-7FD57289FEF3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="monto_inicial" id="97A2B6B7-DF74-F456-90EA-3919B5BA7DA7">
+<createdBy>benjaminignacio</createdBy>
+<createdTime>2026-10-05 21:40:04 UTC</createdTime>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<engineerTo>
+<item key="813AC30F-5319-8033-8A84-7FD57289FEF3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="saldo_actual" id="40F58B41-A599-24D6-4B84-7F8D81A7E285">
+<createdBy>benjaminignacio</createdBy>
+<createdTime>2026-10-05 21:40:55 UTC</createdTime>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<engineerTo>
+<item key="813AC30F-5319-8033-8A84-7FD57289FEF3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_compra" id="A3FE5A93-E904-BCE4-E088-A313C3A7CAB2">
+<createdBy>benjaminignacio</createdBy>
+<createdTime>2026-10-05 21:41:20 UTC</createdTime>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<engineerTo>
+<item key="813AC30F-5319-8033-8A84-7FD57289FEF3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_vencimiento" id="47A8BCFF-23F7-AF92-6BB2-EF6CA627AABF">
+<createdBy>benjaminignacio</createdBy>
+<createdTime>2026-10-05 21:41:38 UTC</createdTime>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<engineerTo>
+<item key="813AC30F-5319-8033-8A84-7FD57289FEF3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estado_giftcard" id="A33C416E-7CB8-8014-8E59-334224EF4FD2">
+<createdBy>benjaminignacio</createdBy>
+<createdTime>2026-10-05 21:41:48 UTC</createdTime>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<engineerTo>
+<item key="813AC30F-5319-8033-8A84-7FD57289FEF3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="comprador_run_cliente" id="C7A5A947-0F20-08D3-B57A-8AB6DCB97277">
+<createdBy>benjaminignacio</createdBy>
+<createdTime>2026-10-05 21:42:29 UTC</createdTime>
+<generatorID>4F9C86E0-23CB-E1DD-BCAC-5E568EE19CFF</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<engineerTo>
+<item key="813AC30F-5319-8033-8A84-7FD57289FEF3" value="true"/>
+</engineerTo>
+<referedAttribute>744995EF-A7E5-E422-C15A-FB734E3B4F64</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="beneficiario_run_cliente" id="B047E61D-29DB-F4B7-9DE2-BE2E873F0042">
+<createdBy>benjaminignacio</createdBy>
+<createdTime>2026-10-05 22:02:23 UTC</createdTime>
+<generatorID>BC908250-7C75-C3A1-6317-DBD7C9EC5640</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<engineerTo>
+<item key="813AC30F-5319-8033-8A84-7FD57289FEF3" value="true"/>
+</engineerTo>
+<referedAttribute>744995EF-A7E5-E422-C15A-FB734E3B4F64</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6CD3F47F-0CF9-DD42-BB14-09E16B68C24E" name="GIFTCARD PK">
+<createdBy>benjaminignacio</createdBy>
+<createdTime>2026-10-05 21:39:52 UTC</createdTime>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="813AC30F-5319-8033-8A84-7FD57289FEF3" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B047E61D-29DB-F4B7-9DE2-BE2E873F0042</attributeRef>
+<attributeRef>E7F22973-D4EA-ABB0-A53E-3B54091948B8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

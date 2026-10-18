@@ -1,0 +1,160 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6D51CEF2-E73B-2A79-1C17-48CA6FDFC2F0" name="DETALLE_FICHA_INSUMO">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>8CE314CC-F932-682A-E391-DFED4B9A7A73</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DETALLE_ATENCION_SERVICIO_SERVICIO_id_servicio" id="39A0EC40-002E-A753-1E42-8998146F8C4B">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>516D0C69-9ED3-599B-7493-976075BCBF90</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D1A6DDB0-1D4A-A698-52C6-2F08C74DF4C1" referredColumn="BDD268F4-A54B-EE73-D3A1-2AB71184CEF6"/>
+</associations>
+</Column>
+<Column name="DETALLE_ATENCION_SERVICIO_FICHA_ATENCION_id_ficha" id="619E4961-7910-58F8-7765-9D6393E52E40">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>B86253DA-0C06-019E-8FDA-A9D4BD55CB79</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D1A6DDB0-1D4A-A698-52C6-2F08C74DF4C1" referredColumn="C0919B51-61A3-8143-A6D6-020907D88AB1"/>
+</associations>
+</Column>
+<Column name="DETALLE_ATENCION_SERVICIO_SERVICIO_TIPO_SERVICIO_id_tipo_servicio" id="F3E66EF3-85DE-C618-8984-2B6F4C4A35C0">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>F04F7F5C-C290-A9B5-1F88-F57DE8C21C9C</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D1A6DDB0-1D4A-A698-52C6-2F08C74DF4C1" referredColumn="B2E104BE-794D-4DF3-91BB-AD1C65959D4D"/>
+</associations>
+</Column>
+<Column name="cant_usada" id="7F6B04F6-AE1E-D44D-8D31-CB65BDE4A6D3">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>F5F0B4B3-AA77-CB3B-32A0-DE9E305BB1FC</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DETALLE_ATENCION_SERVICIO_id_detalle_aten_s" id="CD2C0950-D414-0DED-802C-CD488A9E2856">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>3C90E91F-2BD1-3038-A588-EDD00705A101</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D1A6DDB0-1D4A-A698-52C6-2F08C74DF4C1" referredColumn="73A64D98-A3EA-10D7-E19A-34A70EA0D7BC"/>
+</associations>
+</Column>
+<Column name="INSUMO_id_insumo" id="B744DCEB-86D4-0E7C-3282-D08A3680CEC6">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>34A0D4A5-1D55-55EC-14DC-3DEFB0286580</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5CB478C2-65C6-BB8C-1CE3-8859EB98DF10" referredColumn="974E83A2-5F79-D343-273E-0CBB933B86C0"/>
+</associations>
+</Column>
+<Column name="observacion" id="610363A5-3B54-43CF-7EE7-AE811A7C08DB">
+<createdBy>benjaminignacio</createdBy>
+<createdTime>2026-10-18 03:36:13 UTC</createdTime>
+<generatorID>B61555CC-0401-8356-1B99-248533B2D042</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>155</dataTypeSize>
+<ownDataTypeParameters>155,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A3DDE5C3-4E5D-26A7-5A33-143F93859839" name="DETALLE_FICHA_INSUMO_PK">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>0B3136F3-1479-47B6-61A9-46C4EDE614A7</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="39A0EC40-002E-A753-1E42-8998146F8C4B"/>
+<colUsage columnID="619E4961-7910-58F8-7765-9D6393E52E40"/>
+<colUsage columnID="F3E66EF3-85DE-C618-8984-2B6F4C4A35C0"/>
+<colUsage columnID="CD2C0950-D414-0DED-802C-CD488A9E2856"/>
+<colUsage columnID="B744DCEB-86D4-0E7C-3282-D08A3680CEC6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="44074B4D-1BDD-1225-DAEC-41C18E4F32BC" name="DETALLE_FICHA_INSUMO_DETALLE_ATENCION_SERVICIO_FK">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>6395D423-36C2-AF3D-4F98-F4FE53293BCE</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="39A0EC40-002E-A753-1E42-8998146F8C4B"/>
+<colUsage columnID="F3E66EF3-85DE-C618-8984-2B6F4C4A35C0"/>
+<colUsage columnID="619E4961-7910-58F8-7765-9D6393E52E40"/>
+<colUsage columnID="CD2C0950-D414-0DED-802C-CD488A9E2856"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C8AF6976-A6B9-877D-25D7-47360D87449B" name="DETALLE_FICHA_INSUMO_INSUMO_FK">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>21B62C9A-5035-8808-BC44-105CD06C53F2</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B744DCEB-86D4-0E7C-3282-D08A3680CEC6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
