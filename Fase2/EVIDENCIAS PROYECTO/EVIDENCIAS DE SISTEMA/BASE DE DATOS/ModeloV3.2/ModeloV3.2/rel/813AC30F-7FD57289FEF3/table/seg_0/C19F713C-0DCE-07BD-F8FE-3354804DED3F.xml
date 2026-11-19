@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C19F713C-0DCE-07BD-F8FE-3354804DED3F" name="HISTORIAL_ESTADO_FICHA">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>2507E157-EA9D-32E0-AFB7-AF99758B8D56</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_cambio" id="0FC9824E-B97D-0A50-3BAA-94910F7C9F48">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>863C065F-46BC-A562-7702-D71DE3151C3D</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_hora_cambio" id="DB385170-87D4-4581-B898-5C421BA1E0BD">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>505017EF-2FE9-8E7D-DF29-246A7AD7EFB0</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO_FICHA_id_estado_ficha" id="1FF4BBC7-184A-5179-6FBE-2C359A231CBF">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>6620787D-6DB7-B699-885D-9D4E839A7611</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="30F77A93-6F89-7173-B288-D596A87C0A93" referredColumn="F51C1146-95D7-02D4-FE12-54DF9ECEF5FC"/>
+</associations>
+</Column>
+<Column name="FICHA_ATENCION_id_ficha" id="9497007E-ACA3-E03E-248A-4984C4BEC846">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>6D83B004-366A-4B73-B2F7-83A390F9F661</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AAFF1BF0-D8A9-D8BD-1EBA-BFCEDEF0D2B5" referredColumn="C64A66EC-B417-852B-7BC0-BD2B0BEF48E0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="55F9D9F6-9153-4678-43D0-3632EBFABCBB" name="HISTORIAL_ESTADO_FICHA_PK">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>9BD814B4-F302-37F9-A4DC-D67562F3C5EB</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0FC9824E-B97D-0A50-3BAA-94910F7C9F48"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B2A2BAAA-83EA-80B0-CB82-BEAFFFDC9029" name="HISTORIAL_ESTADO_FICHA_ESTADO_FICHA_FK">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>DEC6E5F0-B71C-1FFA-C2DF-EDB125BB2D93</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1FF4BBC7-184A-5179-6FBE-2C359A231CBF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0D461A76-A6E2-9ED8-7E1B-A54CDEE7D4EA" name="HISTORIAL_ESTADO_FICHA_FICHA_ATENCION_FK">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>F4EA11F0-1AE5-C757-2C7B-143D4E21F45E</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9497007E-ACA3-E03E-248A-4984C4BEC846"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

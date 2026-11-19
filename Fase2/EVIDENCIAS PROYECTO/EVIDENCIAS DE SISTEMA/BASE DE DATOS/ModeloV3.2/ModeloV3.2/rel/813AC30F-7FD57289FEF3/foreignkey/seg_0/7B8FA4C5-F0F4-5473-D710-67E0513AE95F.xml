@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7B8FA4C5-F0F4-5473-D710-67E0513AE95F" containerWithKeyObject="FC7C6035-EB2D-38A9-693C-56CB46FA0FCA" localFKIndex="A84C9899-583E-43D4-1100-3DE4B0612934" name="ROL_PRIVILEGIO_PRIVILEGIO_FK">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>68F46E4F-8B4C-2315-2C18-F9173F7A567B</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<referredTableLongName>PRIVILEGIO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0B0E1248-3735-C753-775A-D1F68F06441A</referredTableID>
+<keyObject>290B445A-155C-7F6B-0E56-6169AA93BE68</keyObject>
+<referredKeyID>290B445A-155C-7F6B-0E56-6169AA93BE68</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_privilegio</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

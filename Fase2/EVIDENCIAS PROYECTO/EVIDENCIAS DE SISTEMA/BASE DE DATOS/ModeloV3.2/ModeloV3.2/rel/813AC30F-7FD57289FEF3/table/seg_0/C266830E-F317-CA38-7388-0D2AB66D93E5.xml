@@ -1,0 +1,163 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C266830E-F317-CA38-7388-0D2AB66D93E5" name="GIFTCARD">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>1A8E01E4-371B-62D6-BFA2-31582A8D40B3</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_giftcard" id="591CA99E-1798-BD03-85A0-D934D0351EB1">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>E7F22973-D4EA-ABB0-A53E-3B54091948B8</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="codigo" id="BF540CCF-EA06-A427-6229-71B94643847E">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>52B87733-9B64-A896-AC52-982CA9390633</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="monto_inicial" id="DA82D64B-C436-921E-8700-9B6142F66FE7">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>97A2B6B7-DF74-F456-90EA-3919B5BA7DA7</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="saldo_actual" id="705058BE-43F8-5DFE-7FB1-9A1F53E73F4F">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>40F58B41-A599-24D6-4B84-7F8D81A7E285</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_compra" id="358D74C5-A6D4-3C1E-9D05-1E047A1012B2">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>A3FE5A93-E904-BCE4-E088-A313C3A7CAB2</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_vencimiento" id="D1042C11-5158-FEA3-7383-98026F313F34">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>47A8BCFF-23F7-AF92-6BB2-EF6CA627AABF</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado_giftcard" id="83BE8657-4A87-BCD5-C2D3-1515DBA10DEE">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>A33C416E-7CB8-8014-8E59-334224EF4FD2</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CLIENTE_run_cliente" id="1669492C-C963-4739-3584-1BC3ACDE3A96">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>C7A5A947-0F20-08D3-B57A-8AB6DCB97277</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="380B2FAF-E8C9-1611-89EA-26D4513741E6" referredColumn="0A10747F-8F9C-E6CF-3A62-70081BBFAD2F"/>
+</associations>
+</Column>
+<Column name="CLIENTE_run_cliente1" id="4F3BF8E0-BC91-4B30-1947-D47B2B50A638">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>B047E61D-29DB-F4B7-9DE2-BE2E873F0042</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A45585D2-1AF4-4829-718D-769CEA8C2CCB" referredColumn="0A10747F-8F9C-E6CF-3A62-70081BBFAD2F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A57A32AA-C0BA-FC7B-6A73-3166AC631225" name="GIFTCARD_PK">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>6CD3F47F-0CF9-DD42-BB14-09E16B68C24E</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4F3BF8E0-BC91-4B30-1947-D47B2B50A638"/>
+<colUsage columnID="591CA99E-1798-BD03-85A0-D934D0351EB1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E6E7B042-FAF2-93E1-FA3B-F546FC74B545" name="GIFTCARD_CLIENTE_FK">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>4F9C86E0-23CB-E1DD-BCAC-5E568EE19CFF</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1669492C-C963-4739-3584-1BC3ACDE3A96"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D5D267F3-E4D2-7A2D-B70E-340E238D6405" name="GIFTCARD_CLIENTE_FKv1">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>BC908250-7C75-C3A1-6317-DBD7C9EC5640</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4F3BF8E0-BC91-4B30-1947-D47B2B50A638"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

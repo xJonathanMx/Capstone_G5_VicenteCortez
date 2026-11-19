@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="91B884E8-354A-CD30-3DB9-223D4997E464" containerWithKeyObject="7161D1CF-F50C-E4D8-428F-13543DE2E568" localFKIndex="57D6BF36-BAE0-09CD-B82F-523CFB227498" name="USUARIO_SERVICIO_NIVEL_HABILIDAD_FK">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>3D64A4A8-A037-9E7D-1758-9A98761692D5</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<referredTableLongName>NIVEL_HABILIDAD</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>16252C2D-BDD2-A976-D85B-5524CA03362D</referredTableID>
+<keyObject>6243FCB8-8592-9750-C440-796C134E76F9</keyObject>
+<referredKeyID>6243FCB8-8592-9750-C440-796C134E76F9</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>NIVEL_HABILIDAD_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

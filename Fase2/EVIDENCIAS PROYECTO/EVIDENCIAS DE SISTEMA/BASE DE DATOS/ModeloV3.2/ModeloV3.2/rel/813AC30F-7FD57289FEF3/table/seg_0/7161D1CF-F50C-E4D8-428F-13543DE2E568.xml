@@ -1,0 +1,145 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7161D1CF-F50C-E4D8-428F-13543DE2E568" name="USUARIO_SERVICIO">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>A7B0E0CD-A23E-9C42-C40F-20C7CBD9E7B5</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="es_activo" id="58D59152-DA3A-DAE0-FE90-1AAA02CE1F6B">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>4126E523-4271-D20F-EC34-B45EA72F5B8D</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USUARIO_run_usuario" id="87C0D931-5FBF-51D6-386B-CC9B16B7AB21">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>DB900599-9486-0E80-15E9-164D18C52972</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0BA1E5CE-BD44-FA54-FF8E-C61A0A57A798" referredColumn="75F928FD-AFF2-DA58-117B-CACCC3C702E3"/>
+</associations>
+</Column>
+<Column name="SERVICIO_id_servicio" id="840EFC83-9706-B054-2F98-1651677A6AE4">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>E3A35891-A435-E401-CE3B-CBE3F44474D0</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E15B2F8D-C560-9BEA-72AD-639BA61D82AC" referredColumn="50CF2265-4FFB-02E8-016C-7880F15FC0E2"/>
+</associations>
+</Column>
+<Column name="SERVICIO_TIPO_SERVICIO_id_tipo_servicio" id="357601BC-6E03-08E4-584E-1D615806E23F">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>EEF0D396-E7EB-470F-430F-CC870227C087</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E15B2F8D-C560-9BEA-72AD-639BA61D82AC" referredColumn="70DDED8B-9534-CC53-1A73-0140A8AABCF5"/>
+</associations>
+</Column>
+<Column name="USUARIO_SERVICIO_ID" id="03815C0F-F1B7-998A-AE7A-411AAEBCC841">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="NIVEL_HABILIDAD_NIVEL_HABILIDAD_ID" id="EC867EA9-1290-FECE-008D-68E0976B6C6E">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="91B884E8-354A-CD30-3DB9-223D4997E464" referredColumn="61298C50-579C-8A59-A4CD-F752C44AD2AA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="01EA644A-0D90-9E22-525D-236DF746476A" name="USUARIO_SERVICIO_PK">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="03815C0F-F1B7-998A-AE7A-411AAEBCC841"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D14B0CB5-C7B3-EEDE-F61E-096B1F868294" name="USUARIO_SERVICIO_USUARIO_FK">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>F7499058-E090-8051-E762-0F0D8A248691</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="87C0D931-5FBF-51D6-386B-CC9B16B7AB21"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2A934C36-A804-06F9-1C38-D7A763405FFE" name="USUARIO_SERVICIO_SERVICIO_FK">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>ED2064C5-3368-BCB7-620B-CB9CF210D808</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="840EFC83-9706-B054-2F98-1651677A6AE4"/>
+<colUsage columnID="357601BC-6E03-08E4-584E-1D615806E23F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="57D6BF36-BAE0-09CD-B82F-523CFB227498" name="USUARIO_SERVICIO_NIVEL_HABILIDAD_FK">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>3D64A4A8-A037-9E7D-1758-9A98761692D5</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EC867EA9-1290-FECE-008D-68E0976B6C6E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

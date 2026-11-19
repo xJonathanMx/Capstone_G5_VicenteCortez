@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F5B27D0D-E2BB-AA9D-E7CB-B09CD741EEB7" name="FICHA_ATENCION">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>0FCAA636-2E1C-3B40-FF16-EE9D33AEAF65</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_ficha" id="C64A66EC-B417-852B-7BC0-BD2B0BEF48E0">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>A2384C71-FFA1-26C4-E9D6-50A97BF19640</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_hora_inicio" id="CFD77369-96E1-8E2B-C779-E83064E9C9B4">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>312AF78C-2956-5927-4018-85441389445F</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_hora_termino" id="0DF1C413-DC97-0835-A518-880CC36B3195">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>5854748A-8DFE-C0EF-7248-7AE5D78FEE1E</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CLIENTE_run_cliente" id="5C5AB978-E287-CA42-5102-B1940B6E596F">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>9A50676A-552C-522B-EA06-4172991CB142</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0F8BCFFE-8E18-4D2C-0033-C61B7C483CAC" referredColumn="0A10747F-8F9C-E6CF-3A62-70081BBFAD2F"/>
+</associations>
+</Column>
+<Column name="USUARIO_run_usuario" id="6E9378C0-44FA-305B-77F3-595885D3BF42">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>609F1387-C3B6-43C8-B4FA-394C5C9E3893</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AAADA65B-823D-9956-8B81-A5A7A90E7C23" referredColumn="75F928FD-AFF2-DA58-117B-CACCC3C702E3"/>
+</associations>
+</Column>
+<Column name="diagnostico" id="F0955082-9E39-F4D4-AE2B-A5A863F12B84">
+<createdBy>benjaminignacio</createdBy>
+<createdTime>2026-10-18 03:36:13 UTC</createdTime>
+<generatorID>08A0F05D-0141-ED43-314D-D3ACED235214</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>155</dataTypeSize>
+<ownDataTypeParameters>155,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="10D92308-3AC9-5579-4B93-15C97763DACD" name="FICHA_ATENCION_PK">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>4538936C-7BC9-DDAE-1997-2D7F1FF9AF3A</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C64A66EC-B417-852B-7BC0-BD2B0BEF48E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2083A587-9A27-E1BE-374D-E72EF9DC2EF6" name="FICHA_ATENCION_CLIENTE_FK">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>8BA750B2-11B4-8DB4-A02B-2358ABFBDB53</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C5AB978-E287-CA42-5102-B1940B6E596F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8B649609-548A-A7ED-5B77-D8DD07E6F415" name="FICHA_ATENCION_USUARIO_FK">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:56:57 UTC</createdTime>
+<generatorID>D7180236-5229-ED9E-7004-01583C392B3F</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6E9378C0-44FA-305B-77F3-595885D3BF42"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

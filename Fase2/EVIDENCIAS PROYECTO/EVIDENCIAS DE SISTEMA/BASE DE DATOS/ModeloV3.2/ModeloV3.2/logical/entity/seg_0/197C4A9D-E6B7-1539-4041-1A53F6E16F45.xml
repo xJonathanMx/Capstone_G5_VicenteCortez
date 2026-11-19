@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="197C4A9D-E6B7-1539-4041-1A53F6E16F45" name="HISTORICO_COMISION_SERVICIO">
+<createdBy>benjaminignacio</createdBy>
+<createdTime>2026-10-05 20:26:07 UTC</createdTime>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<engineerTo>
+<item key="813AC30F-5319-8033-8A84-7FD57289FEF3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_hist_comision" id="6CF06DAE-8611-FD28-E5C6-88DB2A95EBD3">
+<createdBy>benjaminignacio</createdBy>
+<createdTime>2026-10-05 20:48:40 UTC</createdTime>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<engineerTo>
+<item key="813AC30F-5319-8033-8A84-7FD57289FEF3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_contrato" id="8D15F38C-3CAE-51C5-49A2-A867BF760B12">
+<createdBy>benjaminignacio</createdBy>
+<createdTime>2026-10-05 20:48:48 UTC</createdTime>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<engineerTo>
+<item key="813AC30F-5319-8033-8A84-7FD57289FEF3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="porcentaje_anterior" id="F53E4FF5-12D8-5F1E-D2B2-9D9344F09B43">
+<createdBy>benjaminignacio</createdBy>
+<createdTime>2026-10-05 20:53:14 UTC</createdTime>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<engineerTo>
+<item key="813AC30F-5319-8033-8A84-7FD57289FEF3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_cambio" id="255B57FE-DE8F-2C87-619D-00759CE4ECC3">
+<createdBy>benjaminignacio</createdBy>
+<createdTime>2026-10-05 20:54:09 UTC</createdTime>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<engineerTo>
+<item key="813AC30F-5319-8033-8A84-7FD57289FEF3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_tipo_servicio" id="31C2CDA6-7354-B657-EDFC-431BBC35D5F8">
+<createdBy>benjaminignacio</createdBy>
+<createdTime>2026-10-06 00:45:10 UTC</createdTime>
+<generatorID>56CB5BD6-CDE0-4260-A5E8-1FB24A9B8528</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<engineerTo>
+<item key="813AC30F-5319-8033-8A84-7FD57289FEF3" value="true"/>
+</engineerTo>
+<referedAttribute>483485A0-B371-5CD3-15AB-51111A33DA86</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0EEA6C8F-1891-DA76-9EE6-5DD81485CA7B" name="HISTORICO_COMISION PK">
+<createdBy>benjaminignacio</createdBy>
+<createdTime>2026-10-05 20:48:46 UTC</createdTime>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="813AC30F-5319-8033-8A84-7FD57289FEF3" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>31C2CDA6-7354-B657-EDFC-431BBC35D5F8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5C42969A-0008-CE60-E155-FB2804079F87" name="ROL_PRIVILEGIO">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-10 02:09:08 UTC</createdTime>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<engineerTo>
+<item key="813AC30F-5319-8033-8A84-7FD57289FEF3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_privilegio" id="70D5CD61-B8D7-7EF8-42DA-075D49A4CBBD">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-10 03:38:28 UTC</createdTime>
+<generatorID>68F46E4F-8B4C-2315-2C18-F9173F7A567B</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<engineerTo>
+<item key="813AC30F-5319-8033-8A84-7FD57289FEF3" value="true"/>
+</engineerTo>
+<referedAttribute>9432D9E4-32EC-325A-8B99-33A39D2DA658</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_rol" id="EB78B36A-4DE4-7EF0-904E-B56CC1036835">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-10 03:38:47 UTC</createdTime>
+<generatorID>A4366DF3-9EE8-6F74-3538-862056D46DD0</generatorID>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<engineerTo>
+<item key="813AC30F-5319-8033-8A84-7FD57289FEF3" value="true"/>
+</engineerTo>
+<referedAttribute>EBD254E8-52A9-C74A-0975-439530CED136</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D0B6C116-7AFF-EDD7-4AEC-9E52B7D923BD" name="ROL_PRIVILEGIO PK">
+<createdBy>BENJA</createdBy>
+<createdTime>2026-10-11 22:37:30 UTC</createdTime>
+<ownerDesignName>ModeloV3.2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="813AC30F-5319-8033-8A84-7FD57289FEF3" value="false"/>
+</engineerTo>
+<pk>true</pk>
+</identifier>
+</identifiers>
+</Entity>
